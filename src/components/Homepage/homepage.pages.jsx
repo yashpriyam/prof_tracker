@@ -55,6 +55,13 @@ class HomePage extends React.Component {
           searchField: ''
         };
     }
+
+    // componentDidMount() {
+  //   fetch('https://jsonplaceholder.typicode.com/users')
+  //     .then(response => response.json())
+  //     .then(users => this.setState({ monsters: users }));
+  // }
+  
     
     onSearchChange = event => {
         this.setState({ searchField: event.target.value });
