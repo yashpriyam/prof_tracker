@@ -24,8 +24,8 @@ class SignUp extends React.Component {
 
     const { displayName, email, password, confirmPassword } = this.state;
 
-    if (password !== confirmPassword) {
-      alert("passwords don't match");
+    if (password !== confirmPassword || password.length < 6) {
+      alert("either password is less than 6 characters or password and confirm passwords don't match");
       return;
     }
 

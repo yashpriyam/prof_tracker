@@ -2,7 +2,7 @@
   "name": "monsters-rolodex",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://zhangmyihua.github.io/monsters-rolodex",
+  "homepage": "https://yashpriyam.github.io/prof_tracker/",
   "dependencies": {
     "firebase": "^7.8.2",
     "gh-pages": "2.0.1",
@@ -23,7 +23,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "yarn build",
+    "predeploy": "npm build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {

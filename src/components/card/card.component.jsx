@@ -11,10 +11,10 @@ const Card = ( props ) => (
   // console.log(props.currentUser),
   
  <div className='card-container' onClick={() => props.currentUser ? props.history.push('/userform') : props.history.push('/signin') }>
-   <img
+   {/* <img
      alt='monster'
      src={`https://robohash.org/${props.monster.id}?set=set2&size=180x180`}
-   />
+   /> */}
    <h2> {props.monster.name} </h2>
    <p> {props.monster.email} </p>
    {/* <button onClick={() => props.history.push(`${props.monster.resume}`)}>Download Resume</button>
