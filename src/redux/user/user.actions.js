@@ -4,4 +4,4 @@ export const setCurrentUser = user => ({
   type: UserActionTypes.SET_CURRENT_USER,
   payload: user
 });
-console.log(setCurrentUser.payload);
+// console.log(setCurrentUser.payload);
